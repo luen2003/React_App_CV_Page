@@ -147,8 +147,13 @@ export const Home = ({ className }) => {
                 CV Viewer Page
               </Link>
             </p>
-
-            <button className="primary-btn">Contact Me</button>
+            <button className="primary-btn btn-led">
+              Contact Me
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>       
           </div>
         </div>
       </section>
