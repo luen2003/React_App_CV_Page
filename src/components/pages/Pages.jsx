@@ -85,9 +85,14 @@ export const Pages = () => {
       linkName: "TikTok Short Video",
     },
     {
-      id: "00",
+      id: "17",
       link: "https://react-livestream-app.onrender.com/",
       linkName: "Livestream App",
+    },
+    {
+      id: "18",
+      link: "https://bank-qrcode.w3spaces.com/",
+      linkName: "Bank QRCode",
     }
   ]
   return (

@@ -110,9 +110,14 @@ export const Portfolio = () => {
       
     },
     {
-      id: "00",
+      id: "22",
       link: "https://react-livestream-app.onrender.com/",
       linkName: "Livestream App",
+    },
+    {
+      id: "23",
+      link: "https://bank-qrcode.w3spaces.com/",
+      linkName: "Bank QRCode",
     }
   ];
   return (
