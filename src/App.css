@@ -1090,7 +1090,7 @@ iframe {
 /* Giảm chiều cao video khi ở màn hình nhỏ để tránh bị che khuất */
 @media screen and (max-width: 768px) {
   .swiper-slide {
-    height: 200px !important;
+    height: 250px!important;
     width: 100%!important;
   }
   .swiper-slide video {
