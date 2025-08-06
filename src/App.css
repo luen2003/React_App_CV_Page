@@ -5,27 +5,39 @@ html {
 
 /* Container adjustments */
 .container {
-  max-width: 100%; /* Allow full width */
-  padding: 0; /* Remove padding */
-  margin: 0 auto; /* Center the container */
+  max-width: 100%;
+  /* Allow full width */
+  padding: 0;
+  /* Remove padding */
+  margin: 0 auto;
+  /* Center the container */
 }
 
 body {
-  overflow-x: hidden; /* Hide horizontal overflow */
+  overflow-x: hidden;
+  /* Hide horizontal overflow */
   font-family: "Times New Roman", Times, serif;
 }
 
 /* Ensure flex items don’t overflow */
 .flex {
-  flex-wrap: wrap; /* Allow items to wrap */
+  flex-wrap: wrap;
+  /* Allow items to wrap */
 }
 
 /* Media queries for mobile adjustments */
 @media screen and (max-width: 768px) {
+  .timeline-section {
+    margin-top: 10em;
+  }
+
   .nav-links-sidebar {
-    left: 0; /* Align sidebar to the left */
-    right: 0; /* Stretch sidebar to the right */
-    margin: 0; /* Remove any margin */
+    left: 0;
+    /* Align sidebar to the left */
+    right: 0;
+    /* Stretch sidebar to the right */
+    margin: 0;
+    /* Remove any margin */
   }
 
   /* Additional adjustments */
@@ -33,8 +45,10 @@ body {
   .about,
   .services,
   .branding {
-    padding: 0; /* Remove any padding */
-    margin: 0; /* Remove any margin */
+    padding: 0;
+    /* Remove any padding */
+    margin: 0;
+    /* Remove any margin */
   }
 }
 
@@ -98,19 +112,24 @@ header.active {
 
 @media screen and (max-width: 768px) {
   .container {
-    width: 100%; /* Make containers full width */
-    padding: 0; /* Remove padding */
+    width: 100%;
+    /* Make containers full width */
+    padding: 0;
+    /* Remove padding */
   }
 
   img {
-    max-width: 100%; /* Responsive images */
+    max-width: 100%;
+    /* Responsive images */
     height: auto;
   }
 
   .flex {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap */
+    flex-wrap: wrap;
+    /* Allow items to wrap */
   }
+
   header .icon {
     display: none;
   }
@@ -580,30 +599,41 @@ footer .icon i {
   margin-top: 70px;
   padding: 20px 0;
 }
-.legal p, .legal span {
-  margin: 0; /* Removes default margins */
+
+.legal p,
+.legal span {
+  margin: 0;
+  /* Removes default margins */
 }
 
 .legal span {
-  font-weight: normal; /* Optional: Adjust font weight if needed */
+  font-weight: normal;
+  /* Optional: Adjust font weight if needed */
 }
 
 /* Styling for the heartbeat effect */
 .legal .heartbeat {
-  animation: heartbeat 1.5s ease-in-out infinite; /* Apply heartbeat animation */
-  display: inline-block; /* Ensure the element stays inline with the text */
+  animation: heartbeat 1.5s ease-in-out infinite;
+  /* Apply heartbeat animation */
+  display: inline-block;
+  /* Ensure the element stays inline with the text */
 }
 
 /* Keyframes for the heartbeat effect using scale */
 @keyframes heartbeat {
   0% {
-      transform: scale(1); /* Initial size */
+    transform: scale(1);
+    /* Initial size */
   }
+
   50% {
-      transform: scale(1.3); /* Slightly larger scale at midpoint */
+    transform: scale(1.3);
+    /* Slightly larger scale at midpoint */
   }
+
   100% {
-      transform: scale(1); /* Return to original size */
+    transform: scale(1);
+    /* Return to original size */
   }
 }
 
@@ -642,13 +672,16 @@ footer .fa-github:hover {
 /*footer*/
 
 @media screen and (max-width: 768px) {
+
   .left,
   .right {
     width: 100%;
   }
+
   .home {
     margin-top: -20px;
   }
+
   .home .img {
     width: 100%;
     height: 100%;
@@ -838,6 +871,7 @@ footer .fa-github:hover {
   top: 200px;
   background-color: #ff8800;
 }
+
 .blue {
   color: #2196f3;
   text-decoration: underline;
@@ -851,22 +885,28 @@ iframe {
 }
 
 .contact {
-  display: flex; /* Aligns children in a row */
+  display: flex;
+  /* Aligns children in a row */
 }
 
 .pdf-container {
-  flex-grow: 1; /* This makes the pdf-container fill the remaining space */
-  padding: 10px; /* Optional padding */
+  flex-grow: 1;
+  /* This makes the pdf-container fill the remaining space */
+  padding: 10px;
+  /* Optional padding */
 }
 
 .pdf {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  border: none; /* Remove default border for a cleaner look */
-  margin-bottom: 20px; /* Space between iframes */
+  border: none;
+  /* Remove default border for a cleaner look */
+  margin-bottom: 20px;
+  /* Space between iframes */
   width: 80%;
 }
+
 /* Initial state for sections */
 .reveal {
   opacity: 0;
@@ -879,64 +919,88 @@ iframe {
   opacity: 1;
   transform: translateY(0);
 }
+
 .home {
   margin-top: -15em;
 }
+
 /* Media queries for mobile adjustments */
 @media screen and (max-width: 768px) {
   .home {
-    padding: 0; /* Remove any padding */
-    margin: 0; /* Remove any margin */
-    height: auto; /* Allow dynamic height */
-    position: relative; /* Ensure stacking context */
+    padding: 0;
+    /* Remove any padding */
+    margin: 0;
+    /* Remove any margin */
+    height: auto;
+    /* Allow dynamic height */
+    position: relative;
+    /* Ensure stacking context */
   }
 
   .home img {
-    width: 100%; /* Make images responsive */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Cover the area without distortion */
-    position: relative; /* Position relative for stacking */
+    width: 100%;
+    /* Make images responsive */
+    height: auto;
+    /* Maintain aspect ratio */
+    object-fit: cover;
+    /* Cover the area without distortion */
+    position: relative;
+    /* Position relative for stacking */
   }
 
   .branding {
-    position: relative; /* Ensure it stacks correctly */
-    z-index: 1; /* Bring it above other content if necessary */
+    position: relative;
+    /* Ensure it stacks correctly */
+    z-index: 1;
+    /* Bring it above other content if necessary */
   }
 
   .wrapperOne {
-    padding: 20px; /* Padding tùy chọn */
-    text-align: center; /* Căn giữa nội dung */
+    padding: 20px;
+    /* Padding tùy chọn */
+    text-align: center;
+    /* Căn giữa nội dung */
   }
 
   .grid1 {
-    display: flex; /* Sử dụng flexbox */
-    flex-direction: column; /* Đặt hướng flex là chiều dọc */
-    align-items: center; /* Căn giữa các phần tử */
+    display: flex;
+    /* Sử dụng flexbox */
+    flex-direction: column;
+    /* Đặt hướng flex là chiều dọc */
+    align-items: center;
+    /* Căn giữa các phần tử */
   }
 
   .grid1 .box {
-    margin-bottom: 20px; /* Khoảng cách giữa các box */
-    width: 100%; /* Chiều rộng 100% để các box chiếm toàn bộ không gian */
+    margin-bottom: 20px;
+    /* Khoảng cách giữa các box */
+    width: 100%;
+    /* Chiều rộng 100% để các box chiếm toàn bộ không gian */
   }
 
   .grid1 h1 {
-    font-size: 24px; /* Giảm kích thước chữ nếu cần */
+    font-size: 24px;
+    /* Giảm kích thước chữ nếu cần */
   }
 
   .grid1 p {
-    font-size: 14px; /* Giảm kích thước chữ cho phần mô tả nếu cần */
+    font-size: 14px;
+    /* Giảm kích thước chữ cho phần mô tả nếu cần */
   }
 
-  
+
   .grid1 span {
-    font-size: 14px; /* Giảm kích thước chữ cho phần mô tả nếu cần */
+    font-size: 14px;
+    /* Giảm kích thước chữ cho phần mô tả nếu cần */
   }
 
   /* Ensure branding text does not overlap */
   .branding h1,
   .branding p {
-    z-index: 2; /* Ensure branding text is on top */
-    position: relative; /* Establish a new stacking context */
+    z-index: 2;
+    /* Ensure branding text is on top */
+    position: relative;
+    /* Establish a new stacking context */
   }
 }
 
@@ -961,9 +1025,11 @@ iframe {
   0% {
     transform: translateX(0);
   }
+
   50% {
     transform: translateX(20px);
   }
+
   100% {
     transform: translateX(-20px);
   }
@@ -971,24 +1037,35 @@ iframe {
 
 /* Ensure the snowflakes are positioned above all other elements */
 .snowfall {
-  position: fixed; /* Ensures the snowflakes are fixed relative to the viewport */
+  position: fixed;
+  /* Ensures the snowflakes are fixed relative to the viewport */
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 10000; /* Snowflakes above other content */
-  pointer-events: none; /* Ensures the snowflakes don't block interaction with other elements */
+  z-index: 10000;
+  /* Snowflakes above other content */
+  pointer-events: none;
+  /* Ensures the snowflakes don't block interaction with other elements */
 }
 
 .card h1 {
-  display: -webkit-box; /* Thiết lập để hiển thị dưới dạng hộp */
-  -webkit-box-orient: vertical; /* Đặt chiều hướng của hộp là dọc */
-  -webkit-line-clamp: 2; /* Giới hạn số dòng hiển thị là 2 */
-  overflow: hidden; /* Ẩn phần nội dung thừa */
-  text-overflow: ellipsis; /* Thêm dấu ba chấm (...) khi bị cắt */
-  line-height: 1.5; /* Tùy chỉnh khoảng cách giữa các dòng (nếu cần) */
-  max-height: 3em; /* Đảm bảo chiều cao tối đa của 2 dòng */
-  line-clamp: 2; /* Giới hạn số dòng hiển thị là 2 */
+  display: -webkit-box;
+  /* Thiết lập để hiển thị dưới dạng hộp */
+  -webkit-box-orient: vertical;
+  /* Đặt chiều hướng của hộp là dọc */
+  -webkit-line-clamp: 2;
+  /* Giới hạn số dòng hiển thị là 2 */
+  overflow: hidden;
+  /* Ẩn phần nội dung thừa */
+  text-overflow: ellipsis;
+  /* Thêm dấu ba chấm (...) khi bị cắt */
+  line-height: 1.5;
+  /* Tùy chỉnh khoảng cách giữa các dòng (nếu cần) */
+  max-height: 3em;
+  /* Đảm bảo chiều cao tối đa của 2 dòng */
+  line-clamp: 2;
+  /* Giới hạn số dòng hiển thị là 2 */
 }
 
 /* Mặc định: ảnh sẽ nằm bên phải */
@@ -997,6 +1074,7 @@ iframe {
   margin-left: -145px;
   margin-top: 650px;
 }
+
 .home {
   margin-top: 200px;
 }
@@ -1009,9 +1087,11 @@ iframe {
     margin-left: 60px;
     margin-bottom: 100px;
   }
+
   .right {
     margin-bottom: -100px;
   }
+
   .home {
     margin-bottom: 160px;
   }
@@ -1028,9 +1108,11 @@ iframe {
   border-radius: 10px;
   border-style: none;
   cursor: pointer;
-  overflow: hidden; /* Ensure the circle effect doesn't overflow */
+  overflow: hidden;
+  /* Ensure the circle effect doesn't overflow */
   transition: transform 0.3s ease;
-  z-index: 1; /* Ensure card is above other elements */
+  z-index: 1;
+  /* Ensure card is above other elements */
 }
 
 .card h1 {
@@ -1044,7 +1126,8 @@ iframe {
   right: 10px;
   font-size: 20px;
   color: #00bbff;
-  z-index: 2; /* Ensure the link is above the circle effect */
+  z-index: 2;
+  /* Ensure the link is above the circle effect */
 }
 
 .card .link:hover {
@@ -1059,15 +1142,18 @@ iframe {
   right: -200px;
   width: 0;
   height: 0;
-  background-color: rgba(0, 0, 255, 0.5); /* Blue color */
+  background-color: rgba(0, 0, 255, 0.5);
+  /* Blue color */
   border-radius: 50%;
   transition: width 0.5s ease, height 0.5s ease;
-  z-index: 0; /* Circle effect is below the card and link */
+  z-index: 0;
+  /* Circle effect is below the card and link */
 }
 
 .card:hover::after,
 .card:active::after {
-  width: 2500px; /* Larger circle when hovered or touched */
+  width: 2500px;
+  /* Larger circle when hovered or touched */
   height: 2500px;
   bottom: -800px;
   right: -800px;
@@ -1075,24 +1161,27 @@ iframe {
 
 .card:hover,
 .card:active {
-  transform: scale(
-    1.05
-  ); /* Slight scaling of the card when hovered or touched */
+  transform: scale(1.05);
+  /* Slight scaling of the card when hovered or touched */
 }
 
 .card-content {
   position: relative;
-  z-index: 1; /* This ensures that content stays above the circle */
+  z-index: 1;
+  /* This ensures that content stays above the circle */
 }
+
 .swiper-slide {
   height: 700px;
 }
+
 /* Giảm chiều cao video khi ở màn hình nhỏ để tránh bị che khuất */
 @media screen and (max-width: 768px) {
   .swiper-slide {
-    height: 250px!important;
-    width: 100%!important;
+    height: 250px !important;
+    width: 100% !important;
   }
+
   .swiper-slide video {
     width: 100%;
   }
@@ -1101,6 +1190,7 @@ iframe {
   .swiper-slide {
     width: 100%;
   }
+
   .direction {
     flex-direction: column;
   }
@@ -1109,7 +1199,8 @@ iframe {
 
 .carousel_carousel_container {
   overflow: hidden;
-  height: 128px; /* Điều chỉnh chiều cao phù hợp */
+  height: 128px;
+  /* Điều chỉnh chiều cao phù hợp */
   position: relative;
   color: #205aef;
 }
@@ -1129,18 +1220,26 @@ iframe {
 }
 
 .marquee-container {
-  width: 100%; /* Chiếm toàn bộ chiều rộng */
-  height: 50px; /* Đặt chiều cao cho marquee */
-  overflow: hidden; /* Đảm bảo văn bản không tràn ra ngoài */
-  position: relative; /* Đảm bảo marquee nằm đúng vị trí */
+  width: 100%;
+  /* Chiếm toàn bộ chiều rộng */
+  height: 50px;
+  /* Đặt chiều cao cho marquee */
+  overflow: hidden;
+  /* Đảm bảo văn bản không tràn ra ngoài */
+  position: relative;
+  /* Đảm bảo marquee nằm đúng vị trí */
   z-index: 1000;
 }
 
 marquee {
-  color: white; /* Màu chữ */
-  font-size: 15px; /* Kích thước chữ */
-  background-color: #3498db; /* Màu nền */
-  padding: 5px 0; /* Padding xung quanh văn bản */
+  color: white;
+  /* Màu chữ */
+  font-size: 15px;
+  /* Kích thước chữ */
+  background-color: #3498db;
+  /* Màu nền */
+  padding: 5px 0;
+  /* Padding xung quanh văn bản */
 }
 
 .direction {
@@ -1153,6 +1252,7 @@ marquee {
   0% {
     background-position: 200% 0;
   }
+
   100% {
     background-position: -200% 0;
   }
@@ -1161,8 +1261,10 @@ marquee {
 .branding {
   position: relative;
   padding: 20px;
-  border: 2px solid transparent; /* Initial border */
-  background: #fff; /* Card background color */
+  border: 2px solid transparent;
+  /* Initial border */
+  background: #fff;
+  /* Card background color */
   transition: all 0.3s ease;
 }
 
@@ -1173,10 +1275,13 @@ marquee {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, #4f46e5, #9333ea, #4f46e5); /* Color gradient for the border */
+  background: linear-gradient(90deg, #4f46e5, #9333ea, #4f46e5);
+  /* Color gradient for the border */
   background-size: 200% 100%;
-  animation: runningBorder 4s linear infinite; /* Animation for running border */
-  z-index: -1; /* Ensure it's behind the card content */
+  animation: runningBorder 4s linear infinite;
+  /* Animation for running border */
+  z-index: -1;
+  /* Ensure it's behind the card content */
 }
 
 
@@ -1249,23 +1354,98 @@ marquee {
 
 /* LED Border Movement Animations */
 @keyframes animate1 {
-        0% { left: -100%; }
-        50%, 100% { left: 100%; }
-      }
+  0% {
+    left: -100%;
+  }
 
-      @keyframes animate2 {
-        0% { top: -100%; }
-        50%, 100% { top: 100%; }
-      }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
 
-      @keyframes animate3 {
-        0% { right: -100%; }
-        50%, 100% { right: 100%; }
-      }
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
 
-      @keyframes animate4 {
-        0% { bottom: -100%; }
-        50%, 100% { bottom: 100%; }
-      }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
 
 
+.timeline-section {
+  padding: 60px 0;
+  position: relative;
+}
+
+.timeline {
+  position: relative;
+  margin-left: 60px;
+  border-left: 4px solid #007bff;
+  /* đường thẳng dọc */
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 40px;
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 0;
+  left: -2px;
+  /* đặt giữa line */
+  width: 20px;
+  height: 20px;
+  background-color: #007bff;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 0 2px #007bff;
+  transform: translateX(-50%);
+  /* căn giữa dot với line */
+  z-index: 1;
+}
+
+.timeline-content {
+  background-color: #f9f9f9;
+  padding: 15px 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content h4 {
+  color: #007bff;
+  margin: 0 0 8px;
+}
+
+.timeline-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}

@@ -51,7 +51,41 @@ export const Skill = ({ className }) => {
                         })}
                     </div>
                 </div>
+                <div className="timeline-section">
+                    <div className="timeline">
+                        <div className="timeline-item">
+                            <div className="timeline-dot"></div>
+                            <div className="timeline-content">
+                                <h4>2021 - Bắt đầu học HTML/CSS</h4>
+                                <p>Nắm vững kiến thức nền tảng về cấu trúc và thiết kế web.</p>
+                            </div>
+                        </div>
+                        <div className="timeline-item">
+                            <div className="timeline-dot"></div>
+                            <div className="timeline-content">
+                                <h4>2022 - Học JavaScript</h4>
+                                <p>Phát triển kỹ năng logic và làm việc với hoạt động, hiệu ứng.</p>
+                            </div>
+                        </div>
+                        <div className="timeline-item">
+                            <div className="timeline-dot"></div>
+                            <div className="timeline-content">
+                                <h4>2023 - React JS & API</h4>
+                                <p>Xây dựng ứng dụng và làm việc với REST API.</p>
+                            </div>
+                        </div>
+                        <div className="timeline-item">
+                            <div className="timeline-dot"></div>
+                            <div className="timeline-content">
+                                <h4>2024 - Nâng cao & AI</h4>
+                                <p>Bắt đầu tìm hiểu về trí tuệ nhân tạo, kết hợp phần mềm và phần cứng.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
         </section>
     )
 }
