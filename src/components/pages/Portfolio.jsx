@@ -123,6 +123,11 @@ export const Portfolio = () => {
       id: "24",
       link: "https://github.com/luen2003/dotnet-mssm-api",
       linkName: "Dotnet MSSM API",
+    },
+    {
+      id: "25",
+      link: "https://github.com/luen2003/Face-App",
+      linkName: "Face Recognition Analysis",
     }
   ];
   return (

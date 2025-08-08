@@ -98,6 +98,11 @@ export const Pages = () => {
       id: "19",
       link: "https://github.com/luen2003/dotnet-mssm-api",
       linkName: "Dotnet MSSM API",
+    },
+    {
+      id: "20",
+      link: "https://github.com/luen2003/Face-App",
+      linkName: "Face Recognition Analysis",
     }
   ]
   return (
