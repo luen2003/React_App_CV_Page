@@ -103,6 +103,11 @@ export const Pages = () => {
       id: "20",
       link: "https://github.com/luen2003/Face-App",
       linkName: "Face Recognition Analysis",
+    },
+    {
+      id: "21",
+      link: "https://github.com/luen2003/TakeoutShop",
+      linkName: "ASP.NET Takeout Shop",
     }
   ]
   return (

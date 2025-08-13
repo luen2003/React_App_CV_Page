@@ -128,6 +128,11 @@ export const Portfolio = () => {
       id: "25",
       link: "https://github.com/luen2003/Face-App",
       linkName: "Face Recognition Analysis",
+    },
+    {
+      id: "26",
+      link: "https://github.com/luen2003/TakeoutShop",
+      linkName: "ASP.NET Takeout Shop",
     }
   ];
   return (
