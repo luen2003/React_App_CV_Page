@@ -143,7 +143,7 @@ export const Home = ({ className }) => {
               I am Dinh Luong Ta. I am a programmer skilled at Web Development, Android Development, and I am also learning Artificial Intelligence and Hardware. My favorite subjects are Math, Physics, and Informatics.
             </p>
             <p>
-              My CV: <Link to={{ pathname: 'https://www.topcv.vn/xem-cv/VlNRBgdQUwcHUAZUVQMOAQUCAlsCCwMHAwNXUA38ec' }} target="_blank" className="blue">
+              My CV: <Link to={{ pathname: '/CV.pdf' }} target="_blank" className="blue">
                 CV Viewer Page
               </Link>
             </p>
