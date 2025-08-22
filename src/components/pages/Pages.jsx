@@ -113,6 +113,11 @@ export const Pages = () => {
       id: "22",
       link: "https://react-app-text-audio.onrender.com/",
       linkName: "Read Text + Translate + Record + Download MP3",
+    },
+    {
+      id: "23",
+      link: "https://github.com/luen2003/Styled_Python",
+      linkName: "Styled Effect Python App",
     }
   ]
   return (
