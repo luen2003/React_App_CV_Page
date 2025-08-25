@@ -39,10 +39,12 @@ export const Branding = ({ className }) => {
         </div>
 
       </section>
+
       <img width={'100%'} src={logo} alt="Logo" />
-      <iframe src="https://dluongta.github.io/3d-model.html" title="3D Model"></iframe>
-      <iframe src="https://dluongta.github.io/fireworks.html" title="Fireworks Lighting"></iframe>
-      <iframe src="https://vietnam-map-platform.vercel.app/" title="Vietnam Map Platform"></iframe>
+      <iframe className="custom-iframe" src="https://dluongta.github.io/3d-model.html" title="3D Model"></iframe>
+      <iframe className="custom-iframe" src="https://dluongta.github.io/fireworks.html" title="Fireworks Lighting"></iframe>
+      <iframe className="custom-iframe" src="https://vietnam-map-platform.vercel.app/" title="Vietnam Map Platform"></iframe>
+
       <Hero />
     </>
   );
