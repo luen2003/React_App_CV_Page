@@ -121,16 +121,11 @@ export const Pages = () => {
     },
     {
       id: "24",
-      link: "https://tictactoegame.playcode.io/",
-      linkName: "TicTacToe Game",
-    },
-    {
-      id: "25",
       link: "https://quizzes-app.w3spaces.com/",
       linkName: "Quizzes App",
     },
     {
-      id: "26",
+      id: "25",
       link: "https://digital_calendar.playcode.io/",
       linkName: "Digital Calendar",
     }

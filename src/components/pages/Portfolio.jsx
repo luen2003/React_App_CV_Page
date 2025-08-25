@@ -146,16 +146,11 @@ export const Portfolio = () => {
     },
     {
       id: "29",
-      link: "https://tictactoegame.playcode.io/",
-      linkName: "TicTacToe Game",
-    },
-    {
-      id: "30",
       link: "https://quizzes-app.w3spaces.com/",
       linkName: "Quizzes App",
     },
     {
-      id: "31",
+      id: "30",
       link: "https://digital_calendar.playcode.io/",
       linkName: "Digital Calendar",
     }
