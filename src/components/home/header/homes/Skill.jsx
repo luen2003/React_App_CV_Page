@@ -1,23 +1,65 @@
-import React from 'react'
+import React, { useState, useEffect, useRef } from 'react';
 
 export const Skill = ({ className }) => {
+    // 👇 Custom hook dùng để phát hiện khi phần tử vào vùng nhìn thấy (in-view)
+    const useInView = () => {
+        const ref = useRef(null);
+        const [inView, setInView] = useState(false);
+
+        useEffect(() => {
+            const observer = new IntersectionObserver(
+                ([entry]) => {
+                    if (entry.isIntersecting) {
+                        setInView(true);
+                    }
+                },
+                { threshold: 0.3 }
+            );
+
+            if (ref.current) observer.observe(ref.current);
+            return () => {
+                if (ref.current) observer.unobserve(ref.current);
+            };
+        }, []);
+
+        return [ref, inView];
+    };
+
     const Progress = ({ done, title }) => {
+        const [ref, inView] = useInView();
+        const [style, setStyle] = useState({
+            width: '0%',
+            opacity: 0,
+        });
+
+        useEffect(() => {
+            if (inView) {
+                setStyle({
+                    width: `${done}%`,
+                    opacity: 1,
+                });
+            }
+        }, [inView, done]);
+
         return (
-            <div className="progress">
-                <div className="progress-done" style={{ opacity: 1, width: `${done}%` }}>
-                    <h4>{title}</h4>
-                    <h4>{done}%</h4>
+            <div className="progress" ref={ref}>
+                <div className="progress-done" style={style}>
+                    <span>{title}</span>
+                    <span>{done}%</span>
                 </div>
             </div>
-        )
-    }
+        );
+    };
+
+
     const data = [
         {
             title: "Every Day is a New Challenge",
             para: "I am a programmer who skilled at Web Developer, Android Developer.",
             para1: "I also learning about Artificial Intelligence And Hardware.",
         },
-    ]
+    ];
+
     return (
         <section className={`skill ${className}`}>
             <div className="container">
@@ -25,32 +67,33 @@ export const Skill = ({ className }) => {
                     <h3>WHY CHOOSE ME</h3>
                     <h1>Some of my skills</h1>
                 </div>
+
                 <div className="content flex">
                     <div className="left topMargin">
                         <Progress done="70" title="HTML" />
                         <Progress done="80" title="CSS" />
-                        <Progress done="90" title="JAVASCIPT" />
+                        <Progress done="90" title="JAVASCRIPT" />
                         <Progress done="80" title="REACT JS" />
                     </div>
+
                     <div className="right mtop">
-                        {data.map((val) => {
-                            return (
-                                <>
-                                    <h1>{val.title}</h1>
-                                    <p>{val.para}</p>
-                                    <p>{val.para1}</p>
-                                    <button className="primary-btn btn-led">
-                                        Contact Me
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                    </button>
-                                </>
-                            )
-                        })}
+                        {data.map((val, index) => (
+                            <div key={index}>
+                                <h1>{val.title}</h1>
+                                <p>{val.para}</p>
+                                <p>{val.para1}</p>
+                                <button className="primary-btn btn-led">
+                                    Contact Me
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                            </div>
+                        ))}
                     </div>
                 </div>
+
                 <div className="timeline-section">
                     <div className="timeline">
                         <div className="timeline-item">
@@ -83,9 +126,7 @@ export const Skill = ({ className }) => {
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </section>
-    )
-}
+    );
+};

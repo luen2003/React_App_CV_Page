@@ -487,7 +487,7 @@ h3 {
 }
 
 .progress-done {
-  background-color: cyan;
+  background-color: orange;
   border-radius: 20px;
   color: beige;
   height: 100%;
@@ -1454,4 +1454,28 @@ marquee {
   width: 100%;
   margin: 30px 0; 
   border: none;
+}
+
+.progress {
+    margin: 24px 0;
+    position: relative;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    border-radius: 30px;
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.progress-done {
+    height: 100%;
+    width: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: width 1s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 0;
 }
