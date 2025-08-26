@@ -153,6 +153,11 @@ export const Portfolio = () => {
       id: "30",
       link: "https://digital_calendar.playcode.io/",
       linkName: "Digital Calendar",
+    },
+    {
+      id: "31",
+      link: "https://custom_video.playcode.io/",
+      linkName: "Custom Video",
     }
   ];
   return (

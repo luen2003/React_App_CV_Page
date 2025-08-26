@@ -128,6 +128,11 @@ export const Pages = () => {
       id: "25",
       link: "https://digital_calendar.playcode.io/",
       linkName: "Digital Calendar",
+    },
+    {
+      id: "26",
+      link: "https://custom_video.playcode.io/",
+      linkName: "Custom Video",
     }
   ]
   return (
