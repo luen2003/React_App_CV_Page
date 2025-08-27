@@ -1138,10 +1138,10 @@ iframe {
 .card::after {
   content: "";
   position: absolute;
-  bottom: -200px;
-  right: -200px;
-  width: 0;
-  height: 0;
+  bottom: -500px;
+  right: -500px;
+  width: 60px;
+  height: 60px;
   background-color: rgba(0, 0, 255, 0.5);
   /* Blue color */
   border-radius: 50%;
@@ -1152,11 +1152,11 @@ iframe {
 
 .card:hover::after,
 .card:active::after {
-  width: 2500px;
+  width: 2800px;
   /* Larger circle when hovered or touched */
-  height: 2500px;
-  bottom: -800px;
-  right: -800px;
+  height: 2800px;
+  bottom: -900px;
+  right: -900px;
 }
 
 .card:hover,
