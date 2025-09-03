@@ -1500,3 +1500,10 @@ marquee {
   font-size: 18px;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+  .img {
+    margin-bottom: 40px; 
+  }
+}
+
