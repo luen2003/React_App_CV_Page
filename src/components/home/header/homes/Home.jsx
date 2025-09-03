@@ -40,14 +40,6 @@ export const Home = ({ className }) => {
   ];
 
 
-  const gradientTextStyle = {
-    backgroundImage: 'linear-gradient(83.84deg, #0088FF -6.87%, #A033FF 26.54%, #FF5C87 58.58%)',
-    WebkitBackgroundClip: 'text',
-    color: 'transparent',  // This ensures the gradient shows on the text itself
-    paddingRight: '12px',
-    marginRight: '30px,',
-    whiteSpace: 'nowrap'
-  };
   const gradientTransitonTextStyle = {
     color: colors[currentLineIndex % colors.length],
   };
@@ -94,9 +86,10 @@ export const Home = ({ className }) => {
           </div>
           <div className="right topMargin" style={{ marginTop: '-22px' }}>
             <div className="direction">
+<div className="headline">
 
-              <h1 style={gradientTextStyle}>
-                I AM A&nbsp;&nbsp;
+              <h1 className="gradientTextStyle">
+              I AM A
               </h1>
               <h1>
                 <div className="carousel_carousel_container">
@@ -116,6 +109,7 @@ export const Home = ({ className }) => {
                   </div>
                 </div>
               </h1>
+              </div>
             </div>
 
 
