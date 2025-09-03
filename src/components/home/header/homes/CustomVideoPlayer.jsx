@@ -38,7 +38,7 @@ const CustomVideoPlayer = () => {
     if (!video) return;
 
     // Set initial volume & mute
-    video.volume = 0;
+    video.volume = 1;
     video.muted = true;
 
     const onLoadedMetadata = () => {
@@ -297,7 +297,7 @@ const CustomVideoPlayer = () => {
                 title="Fullscreen"
                 onClick={toggleFullscreen}
               >
-                {isFullscreen ? '❎' : '⛶'}
+                {isFullscreen ? 'X' : '⛶'}
               </button>
             </div>
           </div>
