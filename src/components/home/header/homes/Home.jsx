@@ -99,12 +99,13 @@ export const Home = ({ className }) => {
                 I AM A&nbsp;&nbsp;
               </h1>
               <h1>
-                <div className="carousel_carousel_container" >
+                <div className="carousel_carousel_container">
                   <div
                     className="carousel_carousel"
                     style={{
-                      transform: `translateY(-${currentLineIndex * 25}%)`,
+                      transform: `translateY(-${currentLineIndex * 25 }%)`,
                       transition: isTransitioning ? 'transform 0.5s ease-in-out' : 'none',
+
                     }}
                   >
                     {toRotate.map((text, index) => (
@@ -153,7 +154,7 @@ export const Home = ({ className }) => {
               <span></span>
               <span></span>
               <span></span>
-            </button>       
+            </button>
           </div>
         </div>
       </section>

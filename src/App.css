@@ -1507,3 +1507,27 @@ marquee {
   }
 }
 
+.carousel_carousel_container {
+  height: 120px; /* hoặc lớn hơn nếu bạn muốn dòng cao hơn */
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel_carousel {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel_carousel_item {
+  height: 120px;            /* chiều cao của 1 mục */
+  line-height: 55px;       /* căn giữa theo chiều dọc */
+  font-size: 48px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* hoặc center nếu muốn căn giữa toàn bộ */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
