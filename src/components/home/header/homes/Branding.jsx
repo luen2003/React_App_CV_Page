@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../../../assets/Luen.jpg';
 import Hero from './Hero';
+import CustomVideoPlayer from './CustomVideoPlayer';
 
 export const Branding = ({ className }) => {
   const data = [
@@ -44,7 +45,7 @@ export const Branding = ({ className }) => {
       <iframe className="custom-iframe" src="https://dluongta.github.io/3d-model.html" title="3D Model"></iframe>
       <iframe className="custom-iframe" src="https://dluongta.github.io/fireworks.html" title="Fireworks Lighting"></iframe>
       <iframe className="custom-iframe" src="https://vietnam-map-platform.vercel.app/" title="Vietnam Map Platform"></iframe>
-
+      <CustomVideoPlayer />
       <Hero />
     </>
   );
