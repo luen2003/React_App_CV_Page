@@ -101,38 +101,38 @@ export const Pages = () => {
     },
     {
       id: "20",
-      link: "https://github.com/luen2003/TakeoutShop",
-      linkName: "ASP.NET Takeout Shop",
-    },
-    {
-      id: "21",
       link: "https://react-app-text-audio.onrender.com/",
       linkName: "Read Text + Translate + Record + Download MP3",
     },
     {
-      id: "22",
+      id: "21",
       link: "https://github.com/luen2003/Styled_Python",
       linkName: "Styled Effect Python App",
     },
     {
-      id: "23",
+      id: "22",
       link: "https://quizzes-app.w3spaces.com/",
       linkName: "Quizzes App",
     },
     {
-      id: "24",
+      id: "23",
       link: "https://digital_calendar.playcode.io/",
       linkName: "Digital Calendar",
     },
     {
-      id: "25",
+      id: "24",
       link: "https://custom_video.playcode.io/",
       linkName: "Custom Video",
     },
     {
-      id: "26",
+      id: "25",
       link: "https://github.com/luen2003/ASPNETProduct",
       linkName: "ASPNET Product",
+    },
+    {
+      id: "26",
+      link: "https://github.com/luen2003/text-3d-video",
+      linkName: "Text 3D Video",
     }
   ]
   return (
