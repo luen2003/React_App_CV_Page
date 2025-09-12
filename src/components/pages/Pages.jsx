@@ -133,6 +133,11 @@ export const Pages = () => {
       id: "26",
       link: "https://github.com/luen2003/text-3d-video",
       linkName: "Text 3D Video",
+    },
+    {
+      id: "27",
+      link: "https://github.com/luen2003/WarehouseManagement",
+      linkName: "Warehouse Management System",
     }
   ]
   return (

@@ -158,6 +158,11 @@ export const Portfolio = () => {
       id: "31",
       link: "https://github.com/luen2003/text-3d-video",
       linkName: "Text 3D Video",
+    },
+    {
+      id: "32",
+      link: "https://github.com/luen2003/WarehouseManagement",
+      linkName: "Warehouse Management System",
     }
   ];
   return (
