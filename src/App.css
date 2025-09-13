@@ -1311,7 +1311,7 @@ marquee {
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, yellow, lime, cyan, magenta);
+  background: linear-gradient(90deg, rgba(18, 105, 186, 0.961), cyan, rgb(59, 47, 215), rgb(0, 128, 255));
   background-size: 600% 100%;
   animation: animate1 1s linear infinite;
 }
@@ -1322,7 +1322,7 @@ marquee {
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, yellow, lime, cyan, magenta);
+  background: linear-gradient(180deg, rgba(18, 105, 186, 0.961), cyan, rgb(59, 47, 215), rgb(0, 128, 255));
   background-size: 100% 600%;
   animation: animate2 1s linear infinite;
   animation-delay: 0.25s;
@@ -1334,7 +1334,7 @@ marquee {
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, yellow, lime, cyan, magenta);
+  background: linear-gradient(270deg, rgba(18, 105, 186, 0.961), cyan, rgb(59, 47, 215), rgb(0, 128, 255));
   background-size: 600% 100%;
   animation: animate3 1s linear infinite;
   animation-delay: 0.5s;
@@ -1346,7 +1346,7 @@ marquee {
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(0deg, yellow, lime, cyan, magenta);
+  background: linear-gradient(0deg, rgba(18, 105, 186, 0.961), cyan, rgb(59, 47, 215), rgb(0, 128, 255));
   background-size: 100% 600%;
   animation: animate4 1s linear infinite;
   animation-delay: 0.75s;
@@ -1563,3 +1563,4 @@ marquee {
       text-align: left !important;
     }
   }
+

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f7f1164.css",
-    "main.js": "/static/js/main.3a2c6dd8.js",
+    "main.css": "/static/css/main.621d6cb7.css",
+    "main.js": "/static/js/main.7bc8320f.js",
     "static/media/IntroBackground.mp4": "/static/media/IntroBackground.a390c3c09afdcf075fd0.mp4",
     "static/media/main.png": "/static/media/main.ce1a2d60016cb21729a7.png",
     "static/media/dluongta-animation.mp4": "/static/media/dluongta-animation.9279a867b31c081d65b6.mp4",
@@ -14,11 +14,11 @@
     "static/media/Luen_logo.png": "/static/media/Luen_logo.7c6a31158a0560893533.png",
     "index.html": "/index.html",
     "static/media/caption.vtt": "/static/media/caption.3e852e34cf64d66091d2.vtt",
-    "main.9f7f1164.css.map": "/static/css/main.9f7f1164.css.map",
-    "main.3a2c6dd8.js.map": "/static/js/main.3a2c6dd8.js.map"
+    "main.621d6cb7.css.map": "/static/css/main.621d6cb7.css.map",
+    "main.7bc8320f.js.map": "/static/js/main.7bc8320f.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f7f1164.css",
-    "static/js/main.3a2c6dd8.js"
+    "static/css/main.621d6cb7.css",
+    "static/js/main.7bc8320f.js"
   ]
 }
