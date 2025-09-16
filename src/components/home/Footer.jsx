@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
-import logo from '../../assets/Luen.jpg';
-import logo_brand from '../../assets/Luen_logo.png';
+import logo_brand from '../../assets/Luen.jpg';
 import { Link } from 'react-router-dom';
 
 export const Footer = () => {
