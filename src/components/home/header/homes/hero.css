@@ -1,6 +1,6 @@
 .hero-header78 {
     gap: var(--dl-space-space-threeunits);
-    width: 100%;
+    width: 320%;
     height: auto;
     display: flex;
     overflow: hidden;
@@ -49,102 +49,102 @@
   }
   .hero-placeholder-image10 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image11 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image12 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image13 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image14 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image15 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image16 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image17 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image18 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image19 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image20 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image21 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-row-container2 {
     width: 100%;
   }
   .hero-placeholder-image22 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image23 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image24 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image25 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image26 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image27 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image28 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image29 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image30 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image31 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image32 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-placeholder-image33 {
     width: 400px;
-    height: 400px;
+    height: 68vh;
   }
   .hero-container2 {
     display: contents;
@@ -383,6 +383,7 @@
     object-fit: cover;
     aspect-ratio: 1/1;
     border-radius: var(--dl-radius-radius-imageradius);
+    margin-right: 12px;
   }
   .thq-img-ratio-16-9 {
     width: 100%;
