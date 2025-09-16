@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.e40a242a.css",
-    "main.js": "/static/js/main.16ab29c2.js",
+    "main.js": "/static/js/main.075f99c5.js",
     "static/media/IntroBackground.mp4": "/static/media/IntroBackground.a390c3c09afdcf075fd0.mp4",
     "static/media/main.png": "/static/media/main.ce1a2d60016cb21729a7.png",
     "static/media/dluongta-animation.mp4": "/static/media/dluongta-animation.9279a867b31c081d65b6.mp4",
     "static/media/contact-img.png": "/static/media/contact-img.b99cdb766ab2d8b5cfa5.png",
     "static/media/banner-bg.png": "/static/media/banner-bg.f67087d1c9931d7ccc75.png",
     "static/media/hexagon.png": "/static/media/hexagon.4a2efb8663eceda0a4b6.png",
-    "static/media/Luen-1.jpg": "/static/media/Luen-1.bce84656445196151371.jpg",
-    "static/media/Luen.jpg": "/static/media/Luen.bce84656445196151371.jpg",
+    "static/media/Luen-1.jpg": "/static/media/Luen-1.e6cf79cb19e36e0b5ba8.jpg",
+    "static/media/Luen.jpg": "/static/media/Luen.e6cf79cb19e36e0b5ba8.jpg",
     "static/media/hexagon-main.png": "/static/media/hexagon-main.068f159c444a3180f667.png",
     "static/media/Luen_logo.png": "/static/media/Luen_logo.7c6a31158a0560893533.png",
     "index.html": "/index.html",
     "static/media/caption.vtt": "/static/media/caption.3e852e34cf64d66091d2.vtt",
     "main.e40a242a.css.map": "/static/css/main.e40a242a.css.map",
-    "main.16ab29c2.js.map": "/static/js/main.16ab29c2.js.map"
+    "main.075f99c5.js.map": "/static/js/main.075f99c5.js.map"
   },
   "entrypoints": [
     "static/css/main.e40a242a.css",
-    "static/js/main.16ab29c2.js"
+    "static/js/main.075f99c5.js"
   ]
 }
