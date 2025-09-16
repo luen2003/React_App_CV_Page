@@ -13,7 +13,7 @@ export const Footer = () => {
             <div className="container grid1">
                 <div className="box">
                     <img width="95" height="60" src={logo_brand} alt='' />
-                    <p>Luong Engineer, Enterprise, Entertainment, Technology</p>
+                    <p>Luong Mind Network</p>
                     <div className="socialIcon">
                         <Link className='white' to={{ pathname: 'https://www.facebook.com/dluongta' }} target="_blank"><i className='fab fa-facebook-f'></i></Link>
                         <Link className='white' to={{ pathname: 'https://www.instagram.com/dluongta/' }} target="_blank"> <i className='fab fa-instagram '></i></Link>
