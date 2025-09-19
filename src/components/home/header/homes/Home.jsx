@@ -135,7 +135,7 @@ export const Home = ({ className }) => {
             </div>
 
             <p>
-              I am Dinh Luong Ta. I am a programmer skilled at Web Development, Android Development, and I am also learning Artificial Intelligence and Hardware. My favorite subjects are Math, Physics, and Informatics.
+              I am Dinh Luong Ta. I am a programmer skilled at Web Development, Android Development, and I am also learning Artificial Intelligence and Hardware. I am also fascinated by science and technology.
             </p>
             <p>
               My CV: <Link to={{ pathname: '/CV.pdf' }} target="_blank" className="blue">
