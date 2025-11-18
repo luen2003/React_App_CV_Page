@@ -720,6 +720,13 @@ footer .fa-github:hover {
   footer .grid1 {
     grid-template-columns: repeat(2, 1fr);
   }
+  .skill {
+    padding-top: 0px;
+  }
+  .about .right {
+    margin-top: 80px;
+    margin-bottom: 0px;
+  }
 }
 
 .pages,
@@ -881,7 +888,6 @@ iframe {
   .branding {
     position: relative;
     z-index: 1;
-    margin: 80px 0;
   }
 
   .wrapperOne {
@@ -920,18 +926,6 @@ iframe {
   }
 }
 
-.snowflake {
-  position: absolute;
-  top: -10px;
-  background-color: #fff;
-  width: 8px;
-  height: 8px;
-  opacity: 0.8;
-  border-radius: 50%;
-  animation: fall 10s linear infinite, drift 15s ease-in-out infinite;
-}
-
-
 
 .card h1 {
   display: -webkit-box;
@@ -955,13 +949,6 @@ iframe {
 }
 
 @media (max-width: 768px) {
-  .home .math-image {
-    width: 200px;
-    margin-top: 50px;
-    margin-left: 60px;
-    margin-bottom: 100px;
-  }
-
   .right {
     margin-bottom: -100px;
   }
