@@ -96,7 +96,7 @@ export const HomePage = () => {
   return (
     <>
 
-      <Particles
+      {/* <Particles
         id="tsparticles"
         init={particlesInit}
         options={particlesOptions}
@@ -108,7 +108,7 @@ export const HomePage = () => {
           height: '100%',
           zIndex: 1000, 
         }}
-      />
+      /> */}
 
       <div id="mySidenav" className="sidenav">
         <Link to='/pages' id="pages"> Pages </Link>
