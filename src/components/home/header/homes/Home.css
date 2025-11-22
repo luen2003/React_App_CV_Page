@@ -48,3 +48,11 @@
   align-items: center;
   gap: 0.3rem;
 }
+
+.carousel_carousel_container {
+  text-align: center;       
+}
+.carousel_carousel {
+  align-items: center;  
+}
+
